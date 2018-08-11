@@ -14,9 +14,9 @@ author-img: david-freeman.jpg # add your photo
 about-author: 这个人很懒，什么都没有写 # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github: https://github.com/lengyuedaidai/ # add your Github handle
+social-github: lengyuedaidai # add your Github handle
 social-linkedin: # add your Linkedin handle
-social-email:418088181@qq.com # add your Email address
+social-email: # add your Email address
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
