@@ -4,7 +4,7 @@ title: js使用建议
 date: 2016-05-11 22:53:00 +0800
 description: js使用建议 # Add post description (optional)
 img:  # Add image post (optional)
-tags: [js] # add tag
+tags: [javascript] # add tag
 ---
 1. javascript是支持中文变量的。
 因为ECMA标准规定javascript语音是基于unicode标准开发的，但是在3.0之前，unicode字符集只能出现在注释或者引号内，其他地方只能用ASCⅡ字符集，3.0之后，unicode字符集支持出现在任何地方，便可以用中文进行命名变量。
