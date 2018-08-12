@@ -1,0 +1,12 @@
+---
+layout: post
+title: 测试文章
+date: 2018-08-12 00:00:00 +0800
+description: 这是一个测试文章 # Add post description (optional)
+img:  # Add image post (optional)
+tags: [java] # add tag
+---
+
+测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试
+
+### 这是一篇测试用的文章

@@ -6,17 +6,15 @@ description: > # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: 冷月呆呆 # add your name
-author-img: david-freeman.jpg # add your photo
+author-img: daidai.png # add your photo
 about-author: 这个人很懒，什么都没有写 # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
+social-qq: 418088181 # add your Twitter handle
+social-wechat: zyb418088181 # add your Facebook handle
 social-github: lengyuedaidai # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+social-email: 418088181@qq.com # add your Email address
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
@@ -31,7 +29,7 @@ plugins:
   - jekyll-paginate
   - jemoji
 
-paginate: 8
+paginate: 5
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
