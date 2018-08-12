@@ -17,15 +17,14 @@ layout: main
     <div class="wrap-content">
       <header class="header-page">
         <h1 class="page-title">{{page.title}}</h1>
-        <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+        <div class="page-date"><span>{{page.date | date: '%Y-%m-%d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
       {{content | markdownify}}
       <div class="page-footer">
         <div class="page-share">
-          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
-          <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
-          <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
-        </div>
+          <a href="http://connect.qq.com/widget/shareqq/index.html?url={{ site.url }}{{page.url}}&title={{page.title}}&source={{ site.url }}{{page.url}}&summary={{page.title}}" title="QQ分享" rel="nofollow" target="_blank">QQ分享</a>
+          <a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{ site.url }}{{page.url}}&sharesource=qzone&title={{page.title}}&summary={{page.title}}" title="QQ空间分享" rel="nofollow" target="_blank">QQ空间分享</a>
+				</div>
         <div class="page-tag">
           {% for tag in page.tags %}
             <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">&#35; {{ tag }}</a>
